@@ -1,0 +1,11 @@
+prefix=/home/taeung/GSL
+exec_prefix=/home/taeung/GSL
+libdir=/home/taeung/GSL/lib
+includedir=/home/taeung/GSL/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.7.1
+Libs: -L/home/taeung/GSL/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/home/taeung/GSL/include
